@@ -1,2 +1,2 @@
-# ml
-Machine learning and data analytics
+# Machine Learning and Data Analytics
+
