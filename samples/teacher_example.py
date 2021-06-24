@@ -3,13 +3,15 @@ import math
 import numpy as np
 
 
-def flat_curve(arr, val):   # function, accepts an array
+def flat_curve(arr, val):  # function, accepts an array
     """Calculates a flat curve against an array of values"""
     return [i + val for i in arr]
 
-def sqrt_curve(arr):   # function, accepts an array
+
+def sqrt_curve(arr):  # function, accepts an array
     """Calculates a square root curve against an array of values"""
     return [math.sqrt(i) * 10 for i in arr]
+
 
 # call the function
 test_scores = [88, 92, 79, 93, 85]
